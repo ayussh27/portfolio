@@ -1,0 +1,48 @@
+.icon-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip {
+    visibility: hidden;
+    position: absolute;
+    bottom: 100%; /* Position above the icon */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    opacity: 0;
+    transition: opacity 0.2s, visibility 0.2s;
+  }
+  
+  .icon-container:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .icon-container {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px; /* Add some space between icons */
+  }
+  
+  .tooltip {
+    visibility: hidden;
+    position: absolute;
+    bottom: 100%; /* Position above the icon */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    opacity: 0;
+    transition: opacity 0.2s, visibility 0.2s;
+  }
+  
+  .icon-container:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+  }
